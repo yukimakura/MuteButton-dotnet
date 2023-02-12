@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MuteButton.Abstraction\MuteButton.Abstraction.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="HidSharp" />
+    <None Remove="NLog" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HidSharp" Version="2.1.0" />
+    <PackageReference Include="NLog" Version="4.7.15" />
+  </ItemGroup>
+</Project>

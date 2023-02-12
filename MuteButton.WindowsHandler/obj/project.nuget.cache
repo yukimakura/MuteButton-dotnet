@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "d8/E4pjpdXtk0/t5BEIrO8XkOdUQ5PvFvsOM1Ajtwvg0sSX/FiPykRK6hZllbmK7Ug1Z5lnBKdWe56EBOTrRqQ==",
+  "success": true,
+  "projectFilePath": "/Users/yukimakura/Projects/MuteButton.Core/MuteButton.WindowsHandler/MuteButton.WindowsHandler.csproj",
+  "expectedPackageFiles": [
+    "/Users/yukimakura/.nuget/packages/hidsharp/2.1.0/hidsharp.2.1.0.nupkg.sha512",
+    "/Users/yukimakura/.nuget/packages/nlog/4.7.15/nlog.4.7.15.nupkg.sha512"
+  ],
+  "logs": []
+}

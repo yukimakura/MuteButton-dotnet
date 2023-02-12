@@ -1,0 +1,55 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuteButton.Core", "MuteButton\MuteButton.Core.csproj", "{2BF3F632-0C3C-4FD5-B2C6-3B5DECDFB81E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuteButton.MuteApplications", "MuteButton.MuteApplications\MuteButton.MuteApplications.csproj", "{AB28B220-38FA-4D4C-B9D7-218D2CCB261C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuteButton.Abstraction", "MuteButton.Abstraction\MuteButton.Abstraction.csproj", "{758998EA-851F-464A-8656-765C57F41897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuteButton.WindowsHandler", "MuteButton.WindowsHandler\MuteButton.WindowsHandler.csproj", "{5949CFEE-3334-46E2-8F1B-A07210AAD992}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BF3F632-0C3C-4FD5-B2C6-3B5DECDFB81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF3F632-0C3C-4FD5-B2C6-3B5DECDFB81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF3F632-0C3C-4FD5-B2C6-3B5DECDFB81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF3F632-0C3C-4FD5-B2C6-3B5DECDFB81E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB28B220-38FA-4D4C-B9D7-218D2CCB261C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB28B220-38FA-4D4C-B9D7-218D2CCB261C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB28B220-38FA-4D4C-B9D7-218D2CCB261C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB28B220-38FA-4D4C-B9D7-218D2CCB261C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{758998EA-851F-464A-8656-765C57F41897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758998EA-851F-464A-8656-765C57F41897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758998EA-851F-464A-8656-765C57F41897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758998EA-851F-464A-8656-765C57F41897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5949CFEE-3334-46E2-8F1B-A07210AAD992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5949CFEE-3334-46E2-8F1B-A07210AAD992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5949CFEE-3334-46E2-8F1B-A07210AAD992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5949CFEE-3334-46E2-8F1B-A07210AAD992}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE39DE69-F810-4F2E-8F50-53359D88C5BC}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 80
+		$2.TabsToSpaces = True
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.StandardHeader = $4
+	EndGlobalSection
+EndGlobal

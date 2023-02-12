@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "MuteButton.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/MuteButton.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MuteButton.Abstraction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MuteButton.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../MuteButton.Abstraction/MuteButton.Abstraction.csproj",
+      "msbuildProject": "../MuteButton.Abstraction/MuteButton.Abstraction.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "MuteButton.Abstraction >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/yukimakura/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/yukimakura/Projects/MuteButton.Core/MuteButton.MuteApplications/MuteButton.MuteApplications.csproj",
+      "projectName": "MuteButton.MuteApplications",
+      "projectPath": "/Users/yukimakura/Projects/MuteButton.Core/MuteButton.MuteApplications/MuteButton.MuteApplications.csproj",
+      "packagesPath": "/Users/yukimakura/.nuget/packages/",
+      "outputPath": "/Users/yukimakura/Projects/MuteButton.Core/MuteButton.MuteApplications/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/yukimakura/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "/Users/yukimakura/Projects/MuteButton.Core/MuteButton.Abstraction/MuteButton.Abstraction.csproj": {
+              "projectPath": "/Users/yukimakura/Projects/MuteButton.Core/MuteButton.Abstraction/MuteButton.Abstraction.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
